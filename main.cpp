@@ -302,7 +302,7 @@ void enqueue(Node* &qhead, Node* &current) {
     c->setNext(ccurrent);
     Node* nullnode = NULL;
     c->getNext()->setNext(nullnode);
-    cout << "count: " << count << endl;
+   // cout << "count: " << count << endl;
   }
 
   // enqueueuueue works
@@ -338,7 +338,7 @@ void ADDTOBINARYTREE(Node* &qhead, binarytree* &bthead) {
   
   while(qhead!=NULL) {
     // while the postfix form output queue still has stuff in it...
-    cout << "in adding to binary tree while loop." << endl;
+  //  cout << "in adding to binary tree while loop." << endl;
     // create new tree and put head of queue in it
     binarytree* newtree = new binarytree(qhead);
 
